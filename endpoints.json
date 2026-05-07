@@ -1,0 +1,112 @@
+{
+  "info": {
+    "_postman_id": "d9ac1a6a-4c44-4c82-9cb2-2697f1b33ed8",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "45460465",
+    "_collection_link": "https://go.postman.co/collection/45460465-d9ac1a6a-4c44-4c82-9cb2-2697f1b33ed8?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "http://localhost:8080/api/sorcerers",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Suguru Geto\",\n  \"grade\": \"Special Grade\",\n  \"cursedTechnique\": \"Cursed Spirit Manipulation\",\n  \"school\": \"Independent\",\n  \"cursedEnergy\": 9500.0,\n  \"isActive\": false\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/sorcerers",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "sorcerers"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/api/sorcerers",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Aoi Todo\",\n  \"grade\": \"Special Grade\",\n  \"cursedTechnique\": \"Boogie Woogie\",\n  \"school\": \"Kyoto\",\n  \"cursedEnergy\": 1500.0,\n  \"isActive\": true\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8080/api/sorcerers/e94f84a7-a95b-4b13-b743-bc109e62bbb7",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "sorcerers",
+            "e94f84a7-a95b-4b13-b743-bc109e62bbb7"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/api/sorcerers/e94f84a7-a95b-4b13-b743-bc109e62bbb7",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/sorcerers/e94f84a7-a95b-4b13-b743-bc109e62bbb7",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "sorcerers",
+            "e94f84a7-a95b-4b13-b743-bc109e62bbb7"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "http://localhost:8080/api/sorcerers/19350cfd-37f1-46c3-909f-1b6bb221043a",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8080/api/sorcerers/19350cfd-37f1-46c3-909f-1b6bb221043a",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "sorcerers",
+            "19350cfd-37f1-46c3-909f-1b6bb221043a"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
